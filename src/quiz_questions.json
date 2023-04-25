@@ -1,0 +1,76 @@
+{
+    "Questions": [
+        {
+            "Id": 0,
+            "Image source": "assets/img/hlinik.png",
+            "Question": "Tento kov byl dokonce kdysi cennější než zlato a stříbro.",
+            "Answers": [
+                "Cin",
+                "Hliník",
+                "Zinek",
+                "Železo"
+            ],
+            "Right answer": "Hliník"
+        },
+        {
+            "Id": 1,
+            "Image source": "assets/img/med.png",
+            "Question": "Používá se již více než 10 tisíc let, jedná se tedy o první používaný kov vůbec.",
+            "Answers": [
+                "Železo",
+                "Hořčík",
+                "Měď",
+                "Olovo"
+            ],
+            "Right answer": "Měď"
+        },
+        {
+            "Id": 2,
+            "Image source": "assets/img/nikl.png",
+            "Question": "Tento kov patří již dlouhou dobu mezi tzv. mincovní kovy, používané k ražení mincí, obvykle ve slitinách s mědí. V České republice jsou z těchto slitin vyráběny především mince o nominální hodnotě 1, 2 a 5 Kč.",
+            "Answers": [
+                "Ocel",
+                "Stříbro",
+                "Uran",
+                "Nikl"
+            ],
+            "Right answer": "Nikl"
+        },
+        {
+            "Id": 3,
+            "Image source": "assets/img/olovo.png",
+            "Question": "Starověcí Římané používali tento kov jako běžný konstrukční materiál, mimojiné i na nádobí a vodovodní trubky.",
+            "Answers": [
+                "Mangan",
+                "Olovo",
+                "Měď",
+                "Platina"
+            ],
+            "Right answer": "Olovo"
+        },
+        {
+            "Id": 4,
+            "Image source": "assets/img/titan.png",
+            "Question": "Nerozpouští se v lučavce královské, narozdíl od zlata.",
+            "Answers": [
+                "Titan",
+                "Cin",
+                "Chrom",
+                "Rtuť"
+            ],
+            "Right answer": "Titan"
+        },
+        {
+            "Id": 5,
+            "Image source": "assets/img/zelezo.png",
+            "Question": "Je šestým nejběžnějším prvkem v celém vesmíru",
+            "Answers": [
+                "Zlato",
+                "Kobalt",
+                "Sodík",
+                "Železo"
+            ],
+            "Right answer": "Železo"
+        }
+    ]
+}

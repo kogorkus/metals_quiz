@@ -1,38 +1,108 @@
 .App {
-  text-align: center;
+	text-align: center;
+	background-color: #282c34;
+	min-height: 100vh;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	display: flex;
+	flex-direction: column;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+	max-width: 50vw;
+	max-height: 40vh;
+}
+
+.Start {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30vh 10vw;
+}
+
+.Quiz p {
+	margin: 0 50px;
+}
+
+.AnswerList {
+	padding: 0 30vw;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.Button {
+	cursor: pointer;
+	font-size: calc(5px + 2vmin);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #083e50;
+	width: 400px;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 8px;
+}
+
+.Button:hover {
+	background-color: #0e6683;
+}
+
+.Statistics {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.Statistics p {
+	margin: 10px 0;
+}
+
+.Statistics-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 0 20vw;
+}
+
+.Statistics-row:hover {
+	background-color: #0e6683;
+}
+
+
+.Statistics-row p {	
+	font-size: calc(5px + 2vmin);
+	width: 33%;
+	margin: 10px 0;
+}
+
+.Correct {
+	color: rgb(68, 156, 68);
+}
+
+.Incorrect {
+	color: rgb(165, 30, 30);
 }
