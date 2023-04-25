@@ -186,7 +186,7 @@ function Statistics({ history }) {
 	return (
 		<div>
 			<p>{result}</p>
-			<p>Spřávě jsi zodpověděl/a {countCorret} {answerWordForm} z {history.length}</p>
+			<p>Spřávně jsi zodpověděl/a {countCorret} {answerWordForm} z {history.length}</p>
 			<div className="Statistics-row">
 				<p>Číslo otázky</p>
 				<p>Správná odpověď</p>
